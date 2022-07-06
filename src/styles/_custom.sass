@@ -1,19 +1,78 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 14%
+    right: 13%
+    align-self: stretch
+    background-position: 30% 80%, 50% 50%
+    background-repeat: no-repeat, no-repeat
+    animation-name: cambiar
+    animation-duration: 2s
+    animation-iteration-count: infinite
+    animation-play-state: running
+    animation-timing-function: steps(1, end)
+    img
+      opacity: 0%
+    @keyframes cambiar
+      0%
+        background-image: url("../assets/curso/portada/1.png")
+      50%
+        background-image: url("../assets/curso/portada/2.png")
+      
+
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 28%
+    right: 75%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
+    transform: translateX(20px)
 
   100%
-    transform: translateY(0px)
+    transform: translateX(0px)
+
+
+//Introdución
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: black 
+    
+//Tema1
+
+.bg_grad-01
+  position: relative
+  .tarjeta, .row, .titulo-segundo, p, ImagenInfografica,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -0rem
+    top: 40px
+    left: 0
+    width: calc( 100% + 0rem)
+    height: 90%
+    background: linear-gradient(to right,#FFFFFF,#F4F4F4)
+    background-repeat: no-repeat
+
+.color-1
+  background-color: #F9F7EC
+
+.bgr
+  background-color: #E6F1FF
+  max-width: 600px !important
+  &_2
+    background-image: url(../assets/curso/tema1/fonflip1.svg) !important
+    height: 430px !important
+  &_3
+    background-color: #F2FDF2 !important
+    height: 430px !important
+  &_4
+    background-image: url(../assets/curso/tema1/fonflip2.svg) !important
+    height: 430px !important
+
+.tarjeta-flip.tarjeta .tarjeta-flip__img, .tarjeta-flip.tarjeta .tarjeta-flip__contenido
+  border-radius: 0px
+  overflow: hidden

@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **CF2 - 23110004 Gestionar recursos para la operación de sistemas de agua y saneamiento básico**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF2_23110004_SISTEMAS_AGUA_SANEAMIENTO_BASICO/](https://ecored-sena.github.io/CF2_23110004_SISTEMAS_AGUA_SANEAMIENTO_BASICO/)
 
 #
 
