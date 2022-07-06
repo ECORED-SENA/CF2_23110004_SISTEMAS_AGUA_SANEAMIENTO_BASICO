@@ -64,13 +64,13 @@
   background-color: #E6F1FF
   max-width: 600px !important
   &_2
-    background-image: url(../assets/curso/tema1/fonflip1.svg) !important
+    background-image: url(../assets/curso/tema2/fonflip1.svg) !important
     height: 430px !important
   &_3
     background-color: #F2FDF2 !important
     height: 430px !important
   &_4
-    background-image: url(../assets/curso/tema1/fonflip2.svg) !important
+    background-image: url(../assets/curso/tema2/fonflip2.svg) !important
     height: 430px !important
 
 //Tema2
@@ -88,11 +88,11 @@
 
 //tema3
 
-.color-1
+.color-2
   background-image: url(../assets/curso/tema3/fond.svg) !important
   height: 305px !important
 
-.color-2
+.color-3
   background-image: url(../assets/curso/tema3/fond.svg) !important
   height: 305px !important
 
@@ -133,3 +133,87 @@
       background-color: #B8DEB7
     .linea-tiempo-d__item__content
       background-color: #E6F3E5
+
+.fondo-slyder
+  background-image: url('../assets/curso/tema4/fondo_slyder.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  padding: 2rem
+
+.slyder-a__tipo-a .slyder-a__bullets 
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  width: 35px
+  height: 35px
+  background-color: #FFAB1D
+  border-radius: 50%
+  background-image: url(../assets/curso/tema4/bi.svg)
+  background-repeat: no-repeat
+  background-size: 20px 20px
+  background-position: center
+  border: 1px solid #FFAB1D
+  border-top-color: #FFAB1D
+  border-right-color: #FFAB1D
+  border-bottom-color: #FFAB1D
+  border-left-color: #FFAB1D
+  top: 99%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+
+.slyder-a__btn--atrs 
+  width: 35px
+  height: 35px
+  background-color: #FFAB1D
+  border-radius: 50%
+  background-image: url(../assets/curso/tema4/bi.svg)
+  background-repeat: no-repeat
+  background-size: 20px 20px
+  background-position: center
+  border: 1px solid #FFAB1D
+  border-top-color: rgb(255, 255, 255)
+  border-right-color: rgb(255, 255, 255)
+  border-bottom-color: rgb(255, 255, 255)
+  border-left-color: rgb(255, 255, 255)
+  top: 99%
+  z-index: 10000
+  opacity: 0.7
+  box-shadow: 0 0 0px 0px rgba(0, 0, 0, 0.3)
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  cursor: pointer
+
+.slyder-a__tipo-a .slyder-a__btn--atrs 
+  transform: translateY(-50%) rotate(180deg)
+  left: 15px
+.slyder-a__tipo-a .slyder-a__btn--sigt 
+  transform: translateY(-50%) rotate(1deg)
+  right: 15px
+.slyder-a__bullets__item--active 
+  background-color: #00CAF2
+  border-color: #00CAF2
+  opacity: 1
+
+.slyder-a__bullets__item 
+  width: 13px;
+  height: 13px;
+
+.modal-a__content 
+  position: fixed
+  top: 80%
+  left: 50%
+  background-color: #ffffff
+  width: 90%
+  max-width: 1300px
+  max-height: 100vh
+  overflow-y: auto
+  z-index: 110001
+  border-radius: 20px
+  transform: translate(-50%, -50%) scale(0)
+  transition: transform 0.3s ease-in-out
+

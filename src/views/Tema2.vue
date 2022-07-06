@@ -50,7 +50,7 @@
     .row.align-items-center
       .col-md-4
         figure
-          img(src='@/assets/curso/tema2/img1.jpg', alt='AvatarTop')
+          img(src='@/assets/curso/tema2/img2.jpg', alt='AvatarTop')
       .col-md-8.mb-2
         p Para realizar un sistema de acueducto, el primer requisito que se debe tramitar es el permiso de concesión de aguas que consiste en solicitar el derecho de aprovechamiento del agua, ya sea superficial o subterránea para uso doméstico. 
         .row.mb-4

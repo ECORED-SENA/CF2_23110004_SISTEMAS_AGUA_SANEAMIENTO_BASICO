@@ -69,6 +69,42 @@
         figure
           img(src='@/assets/curso/tema4/img2.jpg', alt='AvatarTop')
 
+    .row 
+      .col-md-12
+        .tarjeta.fondo-slyder
+          SlyderA
+            .row
+              .col-lg-5
+                h5.p-3 Estrategias de funcionalidad  
+                  p.mt-3 Están enfocadas en el objetivo específico de un negocio o de un departamento dentro de una organización, determinan los enfoques específicos y las tareas que deben emprenderse para lograr las metas establecidas en la planeación.
+              .col-lg-7.center
+                figure
+                  img.p-4(src='@/assets/curso/tema4/1.png', alt='AvatarTop').m-auto
+
+            .row
+              .col-lg-5
+                h5.p-3 Estrategias de operación
+                  p.mt-3 Estas van encaminadas a la operatividad de la empresa, por ejemplo, a sus actividades cotidianas y continuas, es decir, a su protocolo y sus procedimientos. 
+              .col-lg-7.center
+                figure
+                  img.p-4(src='@/assets/curso/tema4/2.png', alt='AvatarTop').m-auto
+
+            .row
+              .col-lg-5
+                h5.p-3 Estrategias para la organización  
+                  p.mt-3 Estas están enfocadas en la parte organizacional de la empresa, jerarquía, subdivisiones, distribución interna, etc.
+              .col-lg-7.center
+                figure
+                  img.p-4(src='@/assets/curso/tema4/3.png', alt='AvatarTop').m-auto
+
+            .row
+              .col-lg-5
+                h5.p-3 Estrategias de marketing o de publicidad 
+                  p.mt-2 Son aquellas relacionadas con la publicidad y al mundo del marketing y a todo lo relacionado con la proyección pública de la organización.
+              .col-lg-7.center
+                figure
+                  img.p-4(src='@/assets/curso/tema4/4.png', alt='AvatarTop').m-auto
+
 </template>
 
 <script>
