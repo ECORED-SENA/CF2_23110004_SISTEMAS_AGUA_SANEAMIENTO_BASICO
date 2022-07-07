@@ -106,9 +106,9 @@
   margin: 0 auto
 
 .tarjeta-avatar .tarjeta 
-    display: inline-block;
-    padding-top: 100px !important
-    height: 100%
+  display: inline-block;
+  padding-top: 100px !important
+  height: 100%
 
 //Tema4
 
@@ -217,3 +217,29 @@
   transform: translate(-50%, -50%) scale(0)
   transition: transform 0.3s ease-in-out
 
+.crd
+  position: relative
+  padding: 20px
+  &.crd--gray
+    background-image: url(../assets/curso/tema5/fond.png) !important
+    height: 452px !important
+    background-repeat: no-repeat 
+  &.crd--brad
+    border-radius: 15px
+  &.crd--hoverBlue
+    height: 100%
+    transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1)
+    &:hover
+      background-image: url(../assets/curso/tema5/fond2.png) !important
+      height: 452px !important
+      background-repeat: no-repeat 
+      h4, p
+        color: white
+  &.crd--shadow
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+
+.color-4
+  background-color: #DEE9FF
+
+.tarjeta--azul 
+  background-color: #C1E2C0
