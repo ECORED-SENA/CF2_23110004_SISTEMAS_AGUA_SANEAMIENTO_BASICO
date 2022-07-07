@@ -142,132 +142,87 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Comisión de Regulación de Agua Potable y Saneamiento Básico. (2022). Resoluciones CRA.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://normas.cra.gov.co/gestor/m0_resoluciones_caracter_general_por_servicio.html',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Corporación Autónoma Regional del Tolima - Cortolima. (s.f.). Trámites y servicios.',
+      link: 'https://www.cortolima.gov.co/tramites-cortolima?start=12',
+    },
+    {
+      referencia:
+        'Departamento Nacional de Planeación. (s. f.). Normatividad del agua. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.dnp.gov.co/programas/vivienda-agua-y-desarrollo-urbano/Paginas/Agua-Normatividad--.aspx',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Triple A (s. f.). Organigrama de la Triple A S.A. E.S.P. Empresa de servicios públicos. Barranquilla.',
+      link: 'https://www.aaa.com.co/organigrama/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'AAA',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'empresas que tienen como actividad prestar los servicios públicos de agua, aseo y alcantarillado.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Administración estratégica',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'proceso de evaluación sistemática de un negocio y define los objetivos a largo plazo, identifica metas y objetivos, desarrolla estrategias para alcanzar estos y localiza recursos para realizarlos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'DOFA',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'análisis que permite elaborar una matriz que identifica unos factores internos externos que intervienen en el desempeño de una empresa. Las variables internas son Fortalezas y Debilidades, las externas son Oportunidades y Amenazas.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Indicadores',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'instrumento que provee información de una determinada condición o el logro de una cierta situación, actividad o resultado.',
     },
     {
-      termino: 'Moda',
+      termino: 'Plan de acción',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'hoja de ruta que puede ayudar a lograr metas y objetivos. Un programa puede tomar muchos caminos para alcanzar las metas, cumplir los objetivos y lograr resultados.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Vertimiento',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la descarga final de elementos, sustancias o compuestos contenidos en un medio líquido a un cuerpo de agua, alcantarillado o al suelo.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Requisitos para los sistemas de aguas',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Ministerio de Medio Ambiente. (2015). Formato único nacional de solicitud de concesión de aguas superficiales.',
+      tipo: 'Documento',
+      link: 'http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=18982',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Requisitos para vertimientos',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Ministerio de Medio Ambiente. (2015). Formato único nacional de solicitud de permiso de vertimientos.',
+      tipo: 'Documento',
+      link: 'http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=18902',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Formulación del plan de acción',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
+        'Arroyo, A. (2016). 5 pasos para hacer un plan de acción con éxito. [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=-JlBcqUr--A',
+    },
+    {
+      tema: 'Formulación del plan de acción',
+      referencia:
+        'González, F. (2016). ¿Cómo hacer un plan de acción? [4 claves prácticas]. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=ZgSZnLxyNnY',
     },
   ],
   creditos: {
