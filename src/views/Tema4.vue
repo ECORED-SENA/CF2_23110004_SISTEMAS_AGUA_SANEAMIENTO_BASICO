@@ -11,14 +11,14 @@
       .row.justify-content-center.align-items-center
         .col-md-7
           p La administración estratégica es un proceso de evaluación sistemática de una empresa por la cual se estipulan metas a mediano y corto plazo de acuerdo a los recursos disponibles y la capacidad de ejecución de la corporación. 
-          span De acuerdo con su capacidad asertiva, la administración estratégica se convierte en una eficaz herramienta para diagnosticar, evaluar, analizar y tomar decisiones para contrarrestar las situaciones de no conformidad y adaptación a los cambios, propendiendo la mejora continua de sus procesos
+          span De acuerdo con su capacidad asertiva, la administración estratégica se convierte en una eficaz herramienta para diagnosticar, evaluar, analizar y tomar decisiones para contrarrestar las situaciones de no conformidad y adaptación a los cambios, propendiendo la mejora continua de sus procesos.
         .col-md-4
           figure
             img(src='@/assets/curso/tema4/img1.svg', alt='AvatarTop')
     separador
 
     #t_4_1.titulo-segundo.color-acento-contenido
-      h2 4.1.	Características 
+      h2 4.1	Características 
 
     p.mb-4 Una administración estratégica debe estar orientada en el desarrollo de cuatro componentes que garantizan que la administración mantenga una efectividad muy elevada.
 
@@ -31,28 +31,48 @@
           img(src='@/assets/curso/tema4/img1.jpg', alt='AvatarTop')
       .col-md-8
         LineaTiempoD.linea-tiempo-1
-          .row(numero="1" titulo="Análisis ambiental ") 
-            p Recolección de información inicial. 
-            span Reconocimiento de las fortalezas y debilidades.
-            span El análisis debe ser autocrítico para garantizar la objetividad.
-
+          .row(numero="1" titulo="Análisis ambiental ")
+            ul.lista-ul--color
+              li 
+                i.fas.fa-egg
+                | Recolección de información inicial.
+              li 
+                i.fas.fa-egg
+                | Reconocimiento de las fortalezas y debilidades.
+              li 
+                i.fas.fa-egg
+                | El análisis debe ser autocrítico para garantizar la objetividad.
               
           .row(numero="2" titulo="Formulación de la estrategia ") 
-            p Contiene las razones, los objetivos, las estrategias y las políticas con las que trabajará la empresa.
-            span Se definen los resultados requeridos y cuál es el plan para lograrlo.
+            ul.lista-ul--color
+              li 
+                i.fas.fa-egg
+                | Contiene las razones, los objetivos, las estrategias y las políticas con las que trabajará la empresa.
+              li 
+                i.fas.fa-egg
+                | Se definen los resultados requeridos y cuál es el plan para lograrlo.
 
           .row(numero="3" titulo="Evaluación y control ") 
-            p Considera el uso de las diferentes herramientas de supervisión del desempeño.
-            span Se establece si la empresa va por el camino trazado o si es necesario realizar correcciones.
+            ul.lista-ul--color
+              li 
+                i.fas.fa-egg
+                | Considera el uso de las diferentes herramientas de supervisión del desempeño.
+              li 
+                i.fas.fa-egg
+                | Se establece si la empresa va por el camino trazado o si es necesario realizar correcciones.
              
-          .row(numero="4" titulo="Implementación de la estrategia") 
-            p Es donde se inicia la implementación del plan elaborado en la formulación.
-            span La base son los programas que contiene  las actividades a implementar, el presupuesto y los procedimientos a seguir.
-
+          .row(numero="4" titulo="Implementación de la estrategia")
+            ul.lista-ul--color
+              li 
+                i.fas.fa-egg
+                | Es donde se inicia la implementación del plan elaborado en la formulación.
+              li 
+                i.fas.fa-egg
+                | La base son los programas que contiene  las actividades a implementar, el presupuesto y los procedimientos a seguir.
     separador
 
     #t_4_2.titulo-segundo.color-acento-contenido
-      h2 4.2.	Tipos de estrategias 
+      h2 4.2	Tipos de estrategias 
 
     .row.mb-4.justify-content-center.align-items-center
       .col-md-8
@@ -99,8 +119,8 @@
 
             .row
               .col-lg-5
-                h5.p-3 Estrategias de marketing o de publicidad 
-                  p.mt-2 Son aquellas relacionadas con la publicidad y al mundo del marketing y a todo lo relacionado con la proyección pública de la organización.
+                h5.p-3 Estrategias de <i>marketing</i> o de publicidad 
+                  p.mt-2 Son aquellas relacionadas con la publicidad y al mundo del <i>marketing</i> y a todo lo relacionado con la proyección pública de la organización.
               .col-lg-7.center
                 figure
                   img.p-4(src='@/assets/curso/tema4/4.png', alt='AvatarTop').m-auto

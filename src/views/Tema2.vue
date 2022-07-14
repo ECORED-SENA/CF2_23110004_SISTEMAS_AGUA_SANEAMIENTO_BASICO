@@ -45,7 +45,7 @@
     separador
 
     #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1.	Requisitos para los sistemas de aguas 
+      h2 2.1	Requisitos para los sistemas de aguas 
 
     .row.align-items-center
       .col-md-4
@@ -105,7 +105,7 @@
     separador
 
     #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2.	Requisitos para vertimientos 
+      h2 2.2	Requisitos para vertimientos 
 
     p.mb-5 Al igual que la solicitud se concesión de aguas, el permiso de vertimientos líquidos también es competencia de la Corporación Autónoma Regional - CAR y el gestor deberá realizar la solicitud de acuerdo con los lineamientos que la territorial exija dentro de su jurisdicción.    
    

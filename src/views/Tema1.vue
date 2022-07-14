@@ -27,7 +27,7 @@
               h3.mb-1 Normatividad
               p.text-small Normatividad relacionada con el recurso hídrico en Colombia 
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('downloads/Normatividad.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

@@ -61,7 +61,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Estructura de las AAA',
+        titulo:
+          'Estructura de las AAA(Empresas Prestadoras de Servicios Públicos de Acueducto, Alcantarillado y Aseo)',
         desarrolloContenidos: true,
       },
       {

@@ -26,18 +26,18 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/tema6/vec2.svg' alt='AvatarTop')
-              p.text-centerIdear las estrategias de optimización y la elección de herramientas disponibles.
+              p.text-centerIdear Las estrategias de optimización y la elección de herramientas disponibles.
 
           .col-md-4
             .tarjeta.color-4.p-4
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/tema6/vec3.svg' alt='AvatarTop')
-              p.text-centerRevisar el rendimiento para ir canalizando las acciones que están dando resultados positivos y descartar las que no.
+              p.text-centerRevisar El rendimiento para ir canalizando las acciones que están dando resultados positivos y descartar las que no.
     
       .row.mb-4.justify-content-center.align-items-center
         .col-md-7
-          p.mb-2 Además, también será necesario invertir en la digitalización de procesos, mediante herramientas tecnológicas y software, que ayudan a reducir tiempos y esfuerzos, a la vez que aumentan la productividad gracias a la automatización.
+          p.mb-2 Además, también será necesario invertir en la digitalización de procesos, mediante herramientas tecnológicas y <i>software</i>, que ayudan a reducir tiempos y esfuerzos, a la vez que aumentan la productividad gracias a la automatización.
           .row
             .col-md-12
               .row.mb-4
@@ -60,7 +60,6 @@
             .col-md-6
               figure
                 img(src='@/assets/curso/tema6/img2.jpg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
 
           .row(titulo="Planificar las estrategias, establecer las metas y objetivos e identificar qué herramientas digitales serán útiles")
             .col-md-6.mb-4.mb-md-0
@@ -70,7 +69,6 @@
             .col-md-6
               figure
                 img(src='@/assets/curso/tema6/img3.jpg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
 
           .row(titulo="Analizar los resultados obtenidos y cuantificarlos")
             .col-md-6.mb-4.mb-md-0
@@ -80,7 +78,6 @@
             .col-md-6
               figure
                 img(src='@/assets/curso/tema6/img4.jpg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
 
 </template>
 
