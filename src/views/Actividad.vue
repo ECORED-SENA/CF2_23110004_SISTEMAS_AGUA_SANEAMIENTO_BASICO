@@ -17,7 +17,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Relacionar palabras.
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/CF2AD1/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 
@@ -35,7 +35,7 @@
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Responda falso o verdadero, según corresponda. 
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/CF2AD2/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 

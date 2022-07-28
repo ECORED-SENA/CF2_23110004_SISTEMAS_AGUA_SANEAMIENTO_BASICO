@@ -14,37 +14,37 @@
         h5.mb-4 Como primera medida a realizar, se deben tener en cuenta las siguientes acciones:
       .col-md-8
         .row.mb-3 
-          .col-md-4
+          .col-md-4.mb-4
             .tarjeta.color-4.p-4
               .row.justify-content-center.mb-3
-                .col-8
+                .col-5
                   img(src='@/assets/curso/tema6/vec1.svg' alt='AvatarTop')
               p.text-center Realizar un análisis interno de cada una de las áreas y procesos de la empresa.
 
-          .col-md-4
+          .col-md-4.mb-4
             .tarjeta.color-4.p-4
               .row.justify-content-center.mb-3
-                .col-8
+                .col-5
                   img(src='@/assets/curso/tema6/vec2.svg' alt='AvatarTop')
-              p.text-centerIdear Las estrategias de optimización y la elección de herramientas disponibles.
+              p.text-center Idear Las estrategias de optimización y la elección de herramientas disponibles.
 
-          .col-md-4
+          .col-md-4.mb-4
             .tarjeta.color-4.p-4
               .row.justify-content-center.mb-3
-                .col-8
+                .col-5
                   img(src='@/assets/curso/tema6/vec3.svg' alt='AvatarTop')
-              p.text-centerRevisar El rendimiento para ir canalizando las acciones que están dando resultados positivos y descartar las que no.
+              p.text-center Revisar El rendimiento para ir canalizando las acciones que están dando resultados positivos y descartar las que no.
     
       .row.mb-4.justify-content-center.align-items-center
         .col-md-7
-          p.mb-2 Además, también será necesario invertir en la digitalización de procesos, mediante herramientas tecnológicas y <i>software</i>, que ayudan a reducir tiempos y esfuerzos, a la vez que aumentan la productividad gracias a la automatización.
+          p.mb-3 Además, también será necesario invertir en la digitalización de procesos, mediante herramientas tecnológicas y <i>software</i>, que ayudan a reducir tiempos y esfuerzos, a la vez que aumentan la productividad gracias a la automatización.
           .row
             .col-md-12
               .row.mb-4
-                .col-md-2
+                .col-md-2.col-4
                   figure
                     img(src='@/assets/curso/tema2/vec1.svg', alt='AvatarTop')
-                .col-md-10
+                .col-md-10.col-8
                   p Existe gran variedad de formas para realizar acciones de mejora, pero en el ámbito empresarial existen tres que se destacan debido a su eficacia. A continuación, se identifican: 
         .col-md-5
           figure

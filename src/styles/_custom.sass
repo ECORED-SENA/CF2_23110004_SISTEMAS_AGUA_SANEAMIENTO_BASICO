@@ -67,10 +67,13 @@
     background-image: url(../assets/curso/tema2/fonflip1.svg) !important
     height: 430px !important
   &_3
-    background-color: #F2FDF2 !important
+    background-color: #EBF2FF !important
     height: 430px !important
   &_4
     background-image: url(../assets/curso/tema2/fonflip2.svg) !important
+    height: 430px !important
+  &_5
+    background-color: #F2FDF2 !important
     height: 430px !important
 
 //Tema2
@@ -88,13 +91,54 @@
 
 //tema3
 
+.tarjeta-numerada 
+  background-image: url(../assets/curso/tema3/fond.svg) !important
+  height: 305px !important
+  border-radius: 0px
+
+.camb_color
+  .tarjeta-numerada  
+    background-image: url(../assets/curso/tema3/fond1.svg) !important
+    height: 305px !important
+    border-radius: 0px
+  
+.tarjeta-numerada__contenido
+  display: none
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+.tarjeta-numerada:hover .tarjeta-numerada__numero
+  left: 50%
+  top: -6%  
+.tarjeta-numerada:hover .tarjeta-numerada__contenido
+  display: inherit 
+.tarjeta-numerada 
+  border: 0
+.tarjeta-numerada:hover
+  background-image: url(../assets/curso/tema3/fond1.svg) !important
+  height: 305px !important
+  border-radius: 0px
+
+.tarjeta-avatar > img 
+  position: absolute
+  left: 50%
+  top: 5px
+  transform: translateX(-50%);
+  display: block
+  width: 100px
+  margin: 0 auto
+  z-index: 999
+
+
 .color-2
   background-image: url(../assets/curso/tema3/fond.svg) !important
   height: 305px !important
+  border-radius: 0px
 
 .color-3
   background-image: url(../assets/curso/tema3/fond.svg) !important
   height: 305px !important
+  border-radius: 0px
 
 .tarjeta-avatar > img 
   position: absolute
@@ -125,7 +169,17 @@
     width: calc( 100% + 0rem)
     height: 90%
     background: linear-gradient(to right,#F4F4F4,#FFFFFF)
-    background-repeat: no-repeat   
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -0rem
+      top: -10px
+      left: 0
+      width: calc( 100% + 0rem)
+      height: 90%
+      background: linear-gradient(to right,#F4F4F4,#FFFFFF)
+      background-repeat: no-repeat
 
 .linea-tiempo-1
   .linea-tiempo-d__item--selected
@@ -236,10 +290,108 @@
       h4, p
         color: white
   &.crd--shadow
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    box-shadow: 10px 10px 10px #0000001f, 5px 8px 5px #00000015
 
 .color-4
   background-color: #DEE9FF
+  height: 265px
+  width: auto
 
 .tarjeta--azul 
   background-color: #C1E2C0
+
+.color-a
+  background-color: #B9F0FB
+
+.bg_grad-05
+  position: relative
+  .row, p, .titulo-segundo, SlyderF, .tarjeta,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 360px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 1440px
+    background-image: url("../assets/curso/temas/fond.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: 0px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/temas/fond.jpg")
+      background-repeat: no-repeat
+
+.color-adicional-1
+  background-color: #FFFFFF
+  border-radius: 20px
+  box-shadow: -2px 4px 15px #0000001b
+
+.alinear-nemero
+  float: right
+  height: 71px
+  width: auto
+  @media screen and ( max-width: 999px )
+    float: right
+    height: 41px
+    width: auto
+.pa
+  padding-top: 50px
+  @media screen and ( max-width: 999px )
+    padding-top: 0px
+
+.bg_grad-06
+  position: relative
+  .row, p, .titulo-segundo, SlyderF, .tarjeta,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: 0px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 1420px
+    background-image: url("../assets/curso/tema5/fondo.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: 0px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/tema5/fondo.jpg")
+      background-repeat: no-repeat
+
+.bg_grad-07
+  position: relative
+  .row, p, .titulo-segundo, SlyderF, .tarjeta,
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem 
+    top: -50px
+    left: 0px
+    width: calc( 100% + 6rem)
+    height: 1420px
+    background-image: url("../assets/curso/tema4/fond.jpg")
+    background-repeat: no-repeat
+    @media screen and ( max-width: 420px )
+      content: ''
+      position: absolute
+      margin: 0 -3rem
+      top: -20px
+      left: 0px
+      width: calc( 100% + 6rem)
+      height: 100%
+      background-image: url("../assets/curso/tema4/fond.jpg")
+      background-repeat: no-repeat
