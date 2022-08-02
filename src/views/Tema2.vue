@@ -40,7 +40,7 @@
                 h4.text-center Corporaciones Autónomas Regionales  - CAR
                 img.img250.p-2.center(src='@/assets/curso/tema2/vec3.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_5.p-4.p-xl-5
-              h4.text-center ACorporaciones Autónomas Regionales  - CAR
+              h4.text-center Corporaciones Autónomas Regionales  - CAR
               p.text-center.mt-3 El objetivo principal de las CAR es velar por la protección del medio ambiente a través del respeto de la normatividad ambiental vigente expedida por el Ministerio de Medio Ambiente. Estas son las encargadas de viabilizar los permisos de usos de agua y los permisos de vertimientos. Las funciones de las CAR están establecidas en la Ley 99 de 1993. 
     separador
 
@@ -109,7 +109,7 @@
       #t_2_2.titulo-segundo.color-acento-contenido
         h2 2.2	Requisitos para vertimientos 
 
-      p.mb-5 Al igual que la solicitud se concesión de aguas, el permiso de vertimientos líquidos también es competencia de la Corporación Autónoma Regional - CAR y el gestor deberá realizar la solicitud de acuerdo con los lineamientos que la territorial exija dentro de su jurisdicción.    
+      p.mb-5 Al igual que la solicitud de concesión de aguas, el permiso de vertimientos líquidos también es competencia de la Corporación Autónoma Regional - CAR y el gestor deberá realizar la solicitud de acuerdo con los lineamientos que la territorial exija dentro de su jurisdicción.    
     
       .row.mb-5
         .col-md-12 

@@ -62,7 +62,7 @@ export default {
         icono: 'far fa-file-alt',
         numero: '3',
         titulo:
-          'Estructura de las AAA(Empresas Prestadoras de Servicios Públicos de Acueducto, Alcantarillado y Aseo)',
+          'Estructura de las AAA (Empresas Prestadoras de Servicios Públicos de Acueducto, Alcantarillado y Aseo)',
         desarrolloContenidos: true,
       },
       {
@@ -241,6 +241,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Karly Cediel',
+        cargo: 'Experta temática',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Adriana López',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba',
+        cargo: 'Asesora Metodológica',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -250,46 +271,59 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Sofia Suarez Suarez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'John Jairo Arciniegas González',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carlos Mauricio Gomez Delgado',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis Melendez',
+        cargo: 'Desarrollo front-end',
+        centro: 'Validación de diseño y contenido',
+      },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

@@ -21,7 +21,7 @@
       .col-md-8
         .tarjeta.color-a.p-3.mb-5
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1
+            .col-3.col-sm-2.col-lg-2
               img(src="@/assets/curso/tema1/vec1.svg")
             .col
               .row.justify-content-between.align-items-center
