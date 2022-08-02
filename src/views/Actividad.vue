@@ -28,7 +28,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Falso y verdadero 
+          h2 Falso o verdadero 
         p.mb-4 Responder de forma correcta de acuerdo con los conocimientos adquiridos en el desarrollo del contenido. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

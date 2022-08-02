@@ -120,58 +120,58 @@
         .col-md-4
           h5.text-primary Teniendo en cuenta la solicitud, se debe presentar una serie de anexos que varían según la territorial a la que se dirige, pero básicamente son los siguientes:        
         .col-md-8
-          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
-            .tarjeta.color-adicional-1.p-4
+          SlyderF(columnas="col-lg-8 col-xl-4")
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/1.svg' alt='AvatarTop')
               p.text-center Usos de suelos.
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/2.svg' alt='AvatarTop')
               p.text-center Permisos de propietarios. 
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/3.svg' alt='AvatarTop')
               p.text-center Costos del proyecto.  
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/4.svg' alt='AvatarTop')
               p.text-center Planos y memorias del proyecto. 
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/5.svg' alt='AvatarTop')
               p.text-center Nombre de la fuente de abastecimiento y de descarga.
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
               p.text-center Caracterización del vertimiento.
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
               p.text-center Caudal, frecuencia y tiempo de descarga. 
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
               p.text-center Ubicación del proyecto.
 
-            .tarjeta.color-adicional-1.p-4
+            .tarjeta.color-adicional-5.p-3
               .row.justify-content-center.mb-3
-                .col-8
+                .col-6
                   img(src='@/assets/curso/tema2/9.svg' alt='AvatarTop')
               p.text-center Evaluación ambiental del vertimiento.
 

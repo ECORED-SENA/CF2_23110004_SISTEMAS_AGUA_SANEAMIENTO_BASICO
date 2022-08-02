@@ -154,13 +154,12 @@ export default {
     },
     {
       referencia:
-        'Departamento Nacional de Planeación. (s. f.). Normatividad del agua. ',
+        'Departamento Nacional de Planeación. (s. f.). Agua Normatividad.',
       link:
         'https://www.dnp.gov.co/programas/vivienda-agua-y-desarrollo-urbano/Paginas/Agua-Normatividad--.aspx',
     },
     {
-      referencia:
-        'Triple A (s. f.). Organigrama de la Triple A S.A. E.S.P. Empresa de servicios públicos. Barranquilla.',
+      referencia: 'Triple A (s. f.). Organigrama general de la compañía.',
       link: 'https://www.aaa.com.co/organigrama/',
     },
   ],
@@ -319,8 +318,9 @@ export default {
       },
       {
         nombre: 'Veimar Celis Melendez',
-        cargo: 'Desarrollo front-end',
-        centro: 'Validación de diseño y contenido',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
