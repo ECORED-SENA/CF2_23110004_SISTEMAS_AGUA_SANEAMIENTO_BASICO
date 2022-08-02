@@ -10,7 +10,7 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Unir por medio de flechas los conceptos relacionados 
+          h2 Arrastrar y soltar coincidencias
         p.mb-4 Afianzar los conceptos reseñados en el presente contenido para identificarlos en los contextos relacionados. 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
