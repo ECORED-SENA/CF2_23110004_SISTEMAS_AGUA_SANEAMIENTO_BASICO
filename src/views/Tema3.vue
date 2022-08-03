@@ -7,10 +7,10 @@
         span 3
       h1  Estructura de las AAA (Empresas Prestadoras de Servicios Públicos de Acueducto, Alcantarillado y Aseo)
 
-    p.mb-5 Las estructuras de las empresas prestadoras de los servicios públicos de acueducto, alcantarillado y aseo se definen desde su planeación y varían de acuerdo a su tamaño y función. Generalmente la estructura está basada en las áreas y en los departamentos encargados de cada proceso, por ejemplo:
+    p.mb-5(data-aos="fade-right") Las estructuras de las empresas prestadoras de los servicios públicos de acueducto, alcantarillado y aseo se definen desde su planeación y varían de acuerdo a su tamaño y función. Generalmente la estructura está basada en las áreas y en los departamentos encargados de cada proceso, por ejemplo:
 
-    .row.mb-4
-      .col-md-6
+    .row.mb-4(data-aos="zoom-in")
+      .col-md-6.mb-4
         .tarjeta-avatar
           img.p-2(src='@/assets/curso/tema3/gota1.svg' alt='AvatarTop')
           .tarjeta.tarjeta-numerada.align-items-center

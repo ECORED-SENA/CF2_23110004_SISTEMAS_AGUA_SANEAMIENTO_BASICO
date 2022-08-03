@@ -8,7 +8,7 @@
       h1  Formulación del plan de acción
 
     .bg_grad-06
-      .bg_grad-01.mb-5
+      .bg_grad-01.mb-5(data-aos="fade-right")
         .row.justify-content-center.align-items-center
           .col-md-4
             figure.mb-4
@@ -19,7 +19,7 @@
             span Sin embargo, para evitar vacíos de información o situaciones que se puedan pasar por alto a la hora de gestionar una empresa, es primordial saber cómo elaborar un plan de acción que se relacione directamente con la actividad de la empresa, para poder proponer acciones que conlleven a una mejora continua.
       
       
-      p.mb-3 Existen tres elementos a tener en cuenta para el éxito de un plan de acción, los cuales se describen a continuación:
+      p.mb-3(data-aos="fade-right") Existen tres elementos a tener en cuenta para el éxito de un plan de acción, los cuales se describen a continuación:
 
       .row.justify-content-center.p-5.correr-izq.correr-der
         .col-md-4.mb-4(data-aos="zoom-in")
@@ -43,10 +43,10 @@
             figure
               img.alinear-nemero(src='@/assets/curso/tema5/03.png', alt='AvatarTop')
 
-      .row.mb-5
+      .row.mb-5(data-aos="fade-right")
         p.mb-4 Con el fin de ampliar los conceptos relacionados con el plan de acción se puede consultar el siguiente video, el cual consolida el concepto. 
 
-      figure.mb-5
+      figure.mb-5(data-aos="fade-right")
         .video
           iframe(width="942" height="530" src="https://www.youtube.com/embed/7r6382WebDQ" title="Plan Acción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

@@ -7,14 +7,15 @@
         span 2
       h1  Entidades reguladoras 
 
-    .bloque-texto-g.color-1.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.jpg')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Para la prestación de los servicios públicos de agua o de alcantarillado, la normativa ambiental colombiana fija unos entes de control que tienen como fin realizar seguimientos y controles a las empresas prestadoras de dichos servicios; de esta manera, se garantiza el cumplimiento de los requisitos mínimos para el uso del recurso hídrico. 
+    .row.mb-4(data-aos="zoom-in")
+      .bloque-texto-g.color-1.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.jpg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Para la prestación de los servicios públicos de agua o de alcantarillado, la normativa ambiental colombiana fija unos entes de control que tienen como fin realizar seguimientos y controles a las empresas prestadoras de dichos servicios; de esta manera, se garantiza el cumplimiento de los requisitos mínimos para el uso del recurso hídrico. 
 
-    .row.text-center.mb-4
+    .row.text-center.mb-4(data-aos="fade-right")
       h5 Estas entidades reguladoras son:
 
     .row.mx-0.mb-5(data-aos="zoom-in")
@@ -50,9 +51,9 @@
     .bg_grad-05
       .row.align-items-center
         .col-md-4
-          figure.mb-4
+          figure.mb-4(data-aos="fade-down-right")
             img(src='@/assets/curso/tema2/img2.jpg', alt='AvatarTop')
-        .col-md-8.mb-2
+        .col-md-8.mb-2(data-aos="zoom-in-up")
           p Para realizar un sistema de acueducto, el primer requisito que se debe tramitar es el permiso de concesión de aguas que consiste en solicitar el derecho de aprovechamiento del agua, ya sea superficial o subterránea para uso doméstico. 
           .row.mb-4
             .col-md-2.col-3
@@ -109,14 +110,14 @@
       #t_2_2.titulo-segundo.color-acento-contenido
         h2 2.2	Requisitos para vertimientos 
 
-      p.mb-5 Al igual que la solicitud de concesión de aguas, el permiso de vertimientos líquidos también es competencia de la Corporación Autónoma Regional - CAR y el gestor deberá realizar la solicitud de acuerdo con los lineamientos que la territorial exija dentro de su jurisdicción.    
+      p.mb-5(data-aos="fade-right") Al igual que la solicitud de concesión de aguas, el permiso de vertimientos líquidos también es competencia de la Corporación Autónoma Regional - CAR y el gestor deberá realizar la solicitud de acuerdo con los lineamientos que la territorial exija dentro de su jurisdicción.    
     
-      .row.mb-5
+      .row.mb-5(data-aos="fade-right")
         .col-md-12 
           figure
             img(src='@/assets/curso/tema2/vec4.svg', alt='AvatarTop')
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down-left")
         .col-md-4
           h5.text-primary Teniendo en cuenta la solicitud, se debe presentar una serie de anexos que varían según la territorial a la que se dirige, pero básicamente son los siguientes:        
         .col-md-8

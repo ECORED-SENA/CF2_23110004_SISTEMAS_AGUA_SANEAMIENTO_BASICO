@@ -7,7 +7,7 @@
         span 1
       h1  Normativa nacional 
 
-    .bg_grad-01.mb-5
+    .bg_grad-01.mb-5(data-aos="fade-right")
       .row.justify-content-center.align-items-center
         .col-md-4
           figure.mb-4
@@ -17,12 +17,12 @@
           p En Colombia existe una gran cantidad de leyes relacionadas con los usos del agua y su relación con los ecosistemas. Esta normatividad tiene como objetivo proteger, regular y castigar las acciones que se realicen con relación al recurso hídrico dentro del territorio nacional.
           span En el siguiente PDF se puede consultar la normatividad relacionada con el recurso hídrico en Colombia.
     br
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-down")
       .col-md-8
         .tarjeta.color-a.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
-              img(src="@/assets/curso/tema1/vec1.svg")
+              img(src="@/assets/curso/tema1/vec1.svg" alt="Lista de chequeo")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

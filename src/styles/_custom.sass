@@ -105,18 +105,26 @@
   background-image: url(../assets/curso/tema3/fond.svg) !important
   height: 305px !important
   border-radius: 0px
+  @media screen and ( max-width: 999px )
+    background-image: url(../assets/curso/tema3/fond.svg) !important
+    height: auto !important
+    border-radius: 0px
+    background-repeat: cover
 
 .camb_color
   .tarjeta-numerada  
     background-image: url(../assets/curso/tema3/fond1.svg) !important
     height: 305px !important
     border-radius: 0px
+    @media screen and ( max-width: 999px )
+      background-image: url(../assets/curso/tema3/fond1.svg) !important
+      height: auto !important
+      border-radius: 0px
+      background-repeat: cover
   
 .tarjeta-numerada__contenido
   display: none
-  -webkit-transition: all 0.3s ease-in-out 0s
-  -moz-transition: all 0.3s ease-in-out 0s
-  transition: all 0.3s ease-in-out 0s
+  transition: margin-left 4s ease-in-out 2s;
 .tarjeta-numerada:hover .tarjeta-numerada__numero
   left: 50%
   top: -6%  
@@ -126,8 +134,13 @@
   border: 0
 .tarjeta-numerada:hover
   background-image: url(../assets/curso/tema3/fond1.svg) !important
-  height: 305px !important
+  height: 303px !important
   border-radius: 0px
+  @media screen and ( max-width: 999px )
+      background-image: url(../assets/curso/tema3/fond1.svg) !important
+      height: auto !important
+      border-radius: 0px
+      background-repeat: cover
 
 .tarjeta-avatar > img 
   position: absolute
@@ -305,10 +318,25 @@
 .color-4
   background-color: #DEE9FF
   height: 265px
-  width: auto
+  @media screen and ( max-width: 1400px )
+    background-color: #DEE9FF
+    height: 265px
+  @media screen and ( max-width: 1400px )
+    background-color: #DEE9FF
+    height: 320px
+  @media screen and ( max-width: 999px )
+    background-color: #DEE9FF
+    height: auto
 
-.tarjeta--azul 
-  background-color: #C1E2C0
+
+.tarjeta.tarjeta-azul
+  background-color: #E4F3E4
+
+.acordion__accion__btn--a
+  background-color: #ffffff !important
+
+.acordion__activo
+  background-color: #C1E2C0!important
 
 .color-a
   background-color: #B9F0FB
@@ -417,3 +445,22 @@
       height: 100%
       background-image: url("../assets/curso/tema4/fond.jpg")
       background-repeat: no-repeat
+
+.paleYellow
+  background-color: #F9F7EC
+
+.cajon
+  width: 715px
+  z-index: 1
+  @media screen and ( max-width: 1400px )
+    width: 710px
+    z-index: 1
+  @media screen and ( max-width: 1200px )
+    width: 510px
+    z-index: 1
+  @media screen and ( max-width: 999px )
+    width: auto
+    z-index: 1
+
+.z-image
+  z-index: 0

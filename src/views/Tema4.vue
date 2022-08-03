@@ -7,7 +7,7 @@
         span 4
       h1  Administración estratégica 
 
-    .bg_grad-02.mb-5
+    .bg_grad-02.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center
         .col-md-7.col-10.mb-4
           p La administración estratégica es un proceso de evaluación sistemática de una empresa por la cual se estipulan metas a mediano y corto plazo de acuerdo a los recursos disponibles y la capacidad de ejecución de la corporación. 
@@ -21,12 +21,12 @@
       #t_4_1.titulo-segundo.color-acento-contenido
         h2 4.1	Características 
 
-      p.mb-4 Una administración estratégica debe estar orientada en el desarrollo de cuatro componentes que garantizan que la administración mantenga una efectividad muy elevada.
+      p.mb-4(data-aos="fade-down") Una administración estratégica debe estar orientada en el desarrollo de cuatro componentes que garantizan que la administración mantenga una efectividad muy elevada.
 
-      .row.text-center.mb-4
+      .row.text-center.mb-4(data-aos="fade-down")
         h5 Estos componentes son:
 
-      .row.justify-content-center.align-items-center.mb-4
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
         .col-md-4
           figure.mb-4
             img(src='@/assets/curso/tema4/img1.jpg', alt='AvatarTop')
@@ -75,7 +75,7 @@
       #t_4_2.titulo-segundo.color-acento-contenido
         h2 4.2	Tipos de estrategias 
 
-      .row.mb-4.justify-content-center.align-items-center
+      .row.mb-4.justify-content-center.align-items-center(data-aos="fade-down")
         .col-md-8
           .row.mb-2
             .col-md-2.col-4
@@ -90,7 +90,7 @@
           figure
             img(src='@/assets/curso/tema4/img2.jpg', alt='AvatarTop')
 
-      .row 
+      .row(data-aos="fade-down")
         .col-md-12
           .tarjeta.fondo-slyder
             SlyderA
